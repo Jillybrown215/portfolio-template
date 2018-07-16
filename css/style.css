@@ -3,18 +3,23 @@ html {
   height: 100%;
   color: #242423;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 h1 {
-  font-size: 36px;
-  color: white;
+  font-size: 38px;
+  color: #0a2463;
   font-weight: 800;
+  border-bottom:2px solid;
+  line-height:1.5;
+  
+
+  
 }
 
 h2 {
   font-size: 30px;
-  color: white;
+  color: #0a2463;
 }
 
 h3 {
@@ -34,22 +39,22 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Playfair Display', Arial, sans-serif;
 }
 
 .bar-color{
-  background-color: #BBBBBC;
+  background-color: #0a2463;
   color: white;
 }
 
 #myNavbar {
   font-size: 20px;
-  color: #242423;
+  color: #1A5B8A;
 }
 
 #myNavbar a {
@@ -58,7 +63,7 @@ p {
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
+  background-color: #1A5B8A;
   color: white;
 }
 
@@ -66,21 +71,33 @@ p {
   background-color: white;
 }
 
+#about{
+  Background-color: #BBDEF0;
+  color:#0a2463
+}
+#portfolio{
+  background-image: url('../img/');
+  
+  Background-color:#BBDEF0;
+    color:#0a2463
+      
+}
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('../img/josh-calabrese-112481-unsplash.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/rawpixel-594848-unsplash.jpg');
   min-height: 400px;
+  
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url('../img/notebook.jpg');
   min-height: 400px;
 }
 

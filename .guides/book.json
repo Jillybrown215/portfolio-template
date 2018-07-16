@@ -1,0 +1,17 @@
+{
+ "name": "My first project",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "815b87ac-3701-b968-d4d3-c22b7377c159",
+   "pageId": "815b87ac-3701-b968-d4d3-c22b7377c159",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "5a1a2144-5d2f-4a19-7516-f0db9029d0a4",
+   "pageId": "5a1a2144-5d2f-4a19-7516-f0db9029d0a4",
+   "type": "page"
+  }
+ ]
+}
